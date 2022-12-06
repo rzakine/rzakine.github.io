@@ -79,15 +79,21 @@
 	and other systems with irreversible dynamics are challenging to analyze because they cannot be inferred 
 	from a simple free energy minimization principle.
 	Relying on the dynamics is crucial to understand how the system may go from one metastable state to the other.
+	It turns out that the theory of large deviation brings an answer to this question. 
+	By minimizing an action that plays the role of a free energy in the space of all possible paths,
+	one can find the most probable realisation of the noise that drives the system out of a basin of attraction. 
+	This also yields the preferred state of the system when comparing escape probabilities.
+	Below are displayed two movies showing how a minimum action algorithm finds optimal escape paths joining two fixed points. 
+	The path with highest action has a larger `cost of noise' and thus indicates that the associated transition is less probable.
 		
 	</p>
 	 <h3 style="margin-left:100px">
 	  <video width="450" height="300" controls preload> 
-		<source src="./images/movie_0.5forward.mp4"></source> 
+		<source src="./images/movie_0.5forward.webm"></source> 
 		 </video>
 		 
 	  <video width="450" height="300" controls preload> 
-		<source src="./images/movie_1.5backward.mp4"></source> 
+		<source src="./images/movie_0.5backward.webm"></source> 
 		 </video>
 		 
 	</h3>
